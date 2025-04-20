@@ -1,0 +1,95 @@
+.page-container {
+  width: 60%;
+  margin: auto;
+}
+
+.account {
+  display: flex;
+  justify-content: right;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav-button {
+  border: 2px solid black;
+  margin: 1rem;
+  font-size: 30px;
+  height: 50px;
+  width: 50%;
+  text-align: center;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.filters {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+#searchbar {
+  width: 700px;
+}
+
+#filter-button {
+  width: 20%;
+  height: 30px;
+}
+
+.collapsible {
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+.filter-options {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  border: solid 1px black;
+}
+
+#map {
+  width: 1000px;
+  height: 750px;
+}
+
+tr:hover {
+  background-color: #ccc;
+}
+
+#modal-button {
+  width: 20px;
+  height: 20px;
+}
+
+/*#restaurant-list {
+  height: 500px;
+}*/

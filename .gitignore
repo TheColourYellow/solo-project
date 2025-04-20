@@ -2,3 +2,8 @@
 .idea
 node_modules
 .DS_Store
+js/leaflet-practise.js
+js/leaflet-map-old.js
+html/account-backup.html
+html/test.html
+test-folder

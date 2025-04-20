@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/account.css" />
+    <script type="module" src="../js/account.js" defer></script>
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="account">
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" />
+
+          <label for="password">Password:</label>
+          <input type="text" id="password" name="password" />
+
+          <button type="button" id="login-button">Log in</button>
+          <button type="submit" id="logout-button">Log Out</button>
+        </form>
+      </div>
+      <div class="navigation">
+        <a href="main.html" id="nav-button">Home</a>
+        <a href="account.html" id="nav-button">Account</a>
+      </div>
+      <div id="page-root"></div>
+      <button id="change-view"></button>
+    </div>
+  </body>
+</html>

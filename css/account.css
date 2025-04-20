@@ -1,0 +1,61 @@
+.page-container {
+  width: 60%;
+  margin: auto;
+}
+
+.account {
+  display: flex;
+  justify-content: right;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav-button {
+  border: 2px solid black;
+  margin: 1rem;
+  font-size: 30px;
+  height: 50px;
+  width: 50%;
+  text-align: center;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#placeholder-asset {
+  width: 50px;
+  height: 70px;
+  background-color: aqua;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+/*#change-view {
+  width: 50px;
+  height: 30px;
+}
+*/
+.user-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
